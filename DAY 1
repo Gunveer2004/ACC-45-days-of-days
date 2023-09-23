@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cout<<"Enter no of test cases: ";
+    cin>> t;
+    while(t--)
+    {
+        int x;
+        cout<<"how much water did the chef consume: ";
+        cin>>x;
+        if(x>=2000) //x=2000)
+        cout<<"Yes";
+        else
+        cout<<"no";
+        cout<<endl;
+}
+	
+	return 0;
+}
+
+
+//Gunveer singh saluja 
+// Day 1 
