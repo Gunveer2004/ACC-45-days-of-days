@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x;
+    cout<<"enter the number of test cases: ";
+    cin>>x;
+    while(x--)
+    {
+        int y,z,min;
+        cout<<"chef's desired stairs: ";
+        cin>>y;
+        cout<<"how much he can climb at once: ";
+        cin>>z;
+        min=(x%y);
+        cout<<"Total Moves to reach:"<<(x/y)+min<<endl;
+    }
+    return 0;
+}
