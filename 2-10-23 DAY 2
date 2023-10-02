@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int X,N;
+    std::cout<<"Enter the total number of cards: ";
+    std::cin>>N;
+    
+    std::cout<<"Enter the number of face up cards:";
+    std::cin>>X;
+    
+    int operations = std::min(X,N-X); //THE MINIMUM NUMBER OF OPERATIONS WILL BE NO OF CARDS - NO OF FACE UP OR DOWN CARDS
+    std::cout<<operations<<std::endl;
+    
+
+    return 0;
+}
