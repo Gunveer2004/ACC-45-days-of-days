@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int n, m;
+    cout << "Enter the number of candies: ";
+    cin >> n;
+    cout << "Enter the number of friends: ";
+    cin >> m;
+
+    if (n % m == 0 && m % 2 == 0 && (n / m) % 2 == 0) {
+        cout << "It is possible to distribute candies to friends equally, and each friend gets an even number of candies." << endl;
+    } else {
+        cout << "It is not possible to distribute candies to friends equally, and each friend gets an even number of candies." << endl;
+    }
+
+    return 0;
+}
